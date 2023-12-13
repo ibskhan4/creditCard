@@ -1,30 +1,34 @@
-A Simple Python Credit Card System
+# A Simple Python Credit Card System
+
 This repository implements a basic credit card system in Python with functionalities for managing credit limits, transactions, and payments.
 
-Features:
+## Features
 
-Set Credit Limit: Define the initial spending limit for your card.
-Transactions:
-Authorization: Reserve credit for a pending transaction.
-Settlement: Finalize a pending transaction, updating available credit and balance.
-Cancellation: Undo a pending transaction and reclaim reserved credit.
-Payments:
-Initiation: Reduce your balance by a specified amount (marked as pending).
-Post: Finalize a pending payment, increasing available credit.
-Cancellation: Reverse a pending payment and adjust your balance accordingly.
-Benefits:
+- **Set Credit Limit:** Define the initial spending limit for your card.
+- **Transactions:**
+  - *Authorization:* Reserve credit for a pending transaction.
+  - *Settlement:* Finalize a pending transaction, updating available credit and balance.
+  - *Cancellation:* Undo a pending transaction and reclaim reserved credit.
+- **Payments:**
+  - *Initiation:* Reduce your balance by a specified amount (marked as pending).
+  - *Post:* Finalize a pending payment, increasing available credit.
+  - *Cancellation:* Reverse a pending payment and adjust your balance accordingly.
 
-Learn: Explore fundamental concepts of credit card systems and Python implementation.
-Adapt: Use this code as a base for building more complex financial systems.
-Contribute: Fork this repository and add your own features and improvements!
-Quick Start:
+## Benefits
 
-Clone this repository to your local machine.
-Install any dependencies (if needed).
-Run python main.py to explore the functionalities interactively.
-Example Usage:
+- **Learn:** Explore fundamental concepts of credit card systems and Python implementation.
+- **Adapt:** Use this code as a base for building more complex financial systems.
+- **Contribute:** Fork this repository and add your own features and improvements!
 
-Python
+## Quick Start
+
+1. Clone this repository to your local machine.
+2. Install any dependencies (if needed).
+3. Run `python main.py` to explore the functionalities interactively.
+
+## Example Usage
+
+```python
 # Create a card with a $1000 limit
 card = CreditCard(1000)
 
@@ -57,7 +61,3 @@ card.settle(2)
 # Check final balance and available credit
 print(f"Final balance: ${card.balance}")
 print(f"Final available credit: ${card.available_credit}")
-Use code with caution. Learn more
-Feel free to explore the code, modify it to your needs, and contribute to its development!
-
-Note: This is a basic implementation and can be enhanced with features like transaction history, interest calculations, and security measures.
