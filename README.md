@@ -24,7 +24,7 @@ This repository implements a basic credit card system in Python with functionali
 
 1. Clone this repository to your local machine.
 2. Install any dependencies (if needed).
-3. Run `python main.py` to explore the functionalities interactively.
+3. Run `python creditCard.py` to explore the functionalities interactively.
 
 ## Example Usage
 
