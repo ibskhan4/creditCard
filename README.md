@@ -1,6 +1,6 @@
 # A Simple Python Credit Card System
 
-This repository implements a basic credit card system in Python with functionalities for managing credit limits, transactions, and payments.
+This project implements a basic credit card system in Python with functionalities for managing credit limits, transactions, and payments.
 
 ## Features
 
